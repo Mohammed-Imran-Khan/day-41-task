@@ -1,0 +1,21 @@
+1)Write API to create Mentor:
+http://localhost:9000/mentor/add
+
+2)Write API to create Student:
+http://localhost:9000/student/add
+
+3)Write API to Assign a student to Mentor:
+   (i)Select one mentor and Add multiple Student:
+      http://localhost:9000/mentor/assignstudents/id:
+
+   (ii)A student who has a mentor should not be shown in List:
+       http://localhost:9000/student/list/mentorunassigned
+
+4)Select One Student and Assign one Mentor:
+http://localhost:9000/student/assignmentor/id:
+
+5)Write API to show all students for a particular mentor:
+http://localhost:9000/student/id:
+
+6)Write an API to show the previously assigned mentor for a particular student:
+http://localhost:9000/student/previouschanges/id:
